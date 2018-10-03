@@ -1,0 +1,7 @@
+# phpspec.yml
+formatter.name: pretty
+
+suites:
+  alfa_college:
+    namespace: AlfaCollege
+    psr4_prefix: AlfaCollege

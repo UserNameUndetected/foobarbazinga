@@ -1,0 +1,23 @@
+{
+    "name": "thieme/foobarbazinga",
+    "description": "FooBarZinga",
+    "type": "project",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thieme",
+            "email": "thieme1999@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AlfaCollege\\": "src/"
+        }
+    }
+}
